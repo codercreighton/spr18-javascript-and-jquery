@@ -1,0 +1,26 @@
+.square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin-bottom: 10px;
+
+
+	}
+
+	#circle{
+		width:200px;
+		height:200px;
+		border-radius: 200px;
+		background: green;
+	}
+
+	#button{
+		width: 80px;
+		height:40px;
+		background: blue;
+
+	}
+
+	p {
+		display: none;
+	}
