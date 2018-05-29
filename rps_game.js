@@ -14,7 +14,7 @@ if (computer <=0.33){
 		alert("Computer chose rock!  You lose.");
 	}
       }	
-else if ( 0.34 >= computer >= 0.66){
+else if ( computer >=0.34 && computer >= 0.66){
 		if (choice == "rock"){
 	alert("Computer chose paper!  You lose!");
 		}

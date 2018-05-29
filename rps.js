@@ -53,7 +53,7 @@ function game(choice){
 			$('#result').css('color', 'red')
 		}
 	      }	
-	else if ( 0.34 >= computer >= 0.66){
+	else if ( computer >= 0.34 && computer <= 0.66){
 			if (choice == "rock"){
 			$('#result').html("Computer chose paper!  You lose!");
 			$('#result').css('color', 'red')
